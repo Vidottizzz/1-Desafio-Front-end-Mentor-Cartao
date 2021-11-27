@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+body {
+    background-color: hsl(217, 54%, 11%);
+    font-size: 1.125rem;
+    font-family: 'Outfit', sans-serif;
+}
+.card .main-img img {
+    border-radius: 1rem;  
+    width: 19rem;
+    height: 19rem;  
+    
+}
+.card .main-img {
+    position: relative;
+    
+}
+.card .imagem {
+    width: 100%;
+    height: auto;
+}
+
+.hover-div {
+    border-radius: 1rem;  
+    width: 19rem;
+    height: 19rem; 
+    position: absolute;
+    background-color: rgba(0, 255, 247, 0.3);
+    opacity: 0;
+    transition: .5s ease;
+    cursor: pointer;
+}
+.hover-div .view-icon {
+    text-align: center;
+    padding-top: 40%;
+   
+}
+.hover-div:hover{
+    opacity: 1;  
+    
+}
+
+
+
+/* --- Header --- */
+
+.card .card-header h3:hover {
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+
+}
+/* --- body --- */
+.card {
+    margin: auto ;  
+    width: 21.875rem;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 1rem;
+    margin-top: 10.625rem;
+    box-shadow: 10px 20px 10px ;
+}
+
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+    margin: 1.5rem;
+    padding-top: 1.4rem;
+}
+.card h3 {
+    color: hsl(0, 0%, 100%);
+}
+.card p {
+    color:hsl(215, 51%, 70%)
+}
+.card-body {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    
+
+}
+.card-body p {
+    margin-left: 0.2rem;
+    display: inline;
+
+}
+
+.card-body .eth p {
+    color: hsl(178, 100%, 50%);
+}
+
+.card-body .clock {
+    align-items: center;
+
+}
+/*  */
+
+/* --- HR --- */
+.card hr {
+    width: 100%;
+    border: none;
+    height: 1px;
+    background-color: hsl(215, 32%, 27%);
+    
+
+}
+/* --- Footer --- */
+.card-footer {
+    display: flex;
+    padding-bottom: 1rem;   
+}
+.card-footer p {
+    font-size: 1rem;
+}
+.card-footer span {
+    color: hsl(0, 0%, 100%);
+}
+.card .card-footer span:hover {
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+
+}
+.profile-picture {
+    width: 2rem;
+    height: 2rem;
+    border: 0.125rem solid white;
+    margin-right: 1rem;
+    border-radius: 50%;  
+    align-self: center;  
+}
+
+
+
+
+
