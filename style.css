@@ -87,12 +87,33 @@ body {
 
 }
 
-.card-body .eth p {
-    color: hsl(178, 100%, 50%);
+
+.card-body .eth {
+    display: flex;
+    
+
+}
+.card-body .clock {
+    display: flex;   
+}
+.card-body .clock span {
+    align-items: center;
+    color: hsl(0, 0%, 100%);
+}
+.card-body .clock img {
+   margin-right: 0.6rem;
+   width: 20px;
+   height: 20px; 
 }
 
-.card-body .clock {
-    align-items: center;
+.card-body .eth span {
+align-items: center;
+color: hsl(178, 100%, 50%);
+}
+.card-body .eth img {
+    width: 14px;
+    height: 20px;
+margin-right: 0.6rem;
 
 }
 /*  */
